@@ -9,46 +9,26 @@ const projectsData = [
     id: 1,
     title: "Service Application",
     description: "",
-    image: "/images/projects/portofolio1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    image: "/images/projects/portofolio14.png",
+    tag: ["Web"],
     previewUrl: "https://icare.documentsolution.com/client/",
   },
-  {
-    id: 2,
-    title: "Travel Application",
-    description: "",
-    image: "/images/projects/portofolio2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "Dokterku Application",
-    description: "",
-    image: "/images/projects/portofolio3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+
   {
     id: 4,
     title: "E-Commercec Application",
     description: "",
     image: "/images/projects/portofolio4.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: [ "Web"],
+    previewUrl: "https://play.google.com/store/apps/details?id=com.barangkulakan.mobile&hl=en&gl=US",
   },
   {
     id: 5,
-    title: "Song Application",
+    title: "Landing Page",
     description: "",
-    image: "/images/projects/portofolio5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    image: "/images/projects/portofolio13.png",
+    tag: ["Web"],
+    previewUrl: "https://penuhmakna.com/",
   },
 
   {
@@ -56,8 +36,7 @@ const projectsData = [
     title: "Ilustrator Design",
     description: "",
     image: "/images/projects/portofolio7.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    tag: ["Design"],
     previewUrl: "/",
   },
   {
@@ -65,8 +44,7 @@ const projectsData = [
     title: "Ilustrator Design",
     description: "",
     image: "/images/projects/portofolio8.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    tag: [ "Design"],
     previewUrl: "/",
   },
   {
@@ -74,8 +52,7 @@ const projectsData = [
     title: "Flyer Design",
     description: "",
     image: "/images/projects/portofolio9.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    tag: [ "Design"],
     previewUrl: "/",
   },
   {
@@ -83,8 +60,7 @@ const projectsData = [
     title: "Flyer Design",
     description: "",
     image: "/images/projects/portofolio10.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    tag: [ "Design"],
     previewUrl: "/",
   },
   {
@@ -92,8 +68,7 @@ const projectsData = [
     title: "Mock Up Desin",
     description: "",
     image: "/images/projects/portofolio11.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    tag: ["Design"],
     previewUrl: "/",
   },
   {
@@ -101,15 +76,14 @@ const projectsData = [
     title: "Logo Design",
     description: "",
     image: "/images/projects/portofolio12.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    tag: ["Design"],
     previewUrl: "/",
   },
   
 ];
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All");
+  const [tag, setTag] = useState("Web");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -132,11 +106,7 @@ const ProjectsSection = () => {
         My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <ProjectTag
-          onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
-        />
+
         <ProjectTag
           onClick={handleTagChange}
           name="Web"
@@ -144,8 +114,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Design"
+          isSelected={tag === "Design"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
