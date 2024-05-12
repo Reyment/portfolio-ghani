@@ -18,8 +18,8 @@ Welcome to my modern portfolio website, where creativity meets innovation. Here,
 
 ## Screenshots
 
-![Screenshot 1](/src/images/homepage.png)
-*Screenshot 1: Overview of the landing page.*
+![Screenshot 1](/public/images/homePagePortfolio.png)
+*Screenshot 1: Overview of the Modern Portfolio Website.*
 
 
 ## Technologies Used
