@@ -1,11 +1,11 @@
 
-# Modern Portfolio
+# Modern Portfolio Website
 
-Welcome to My Awesome Landing Page! This landing page showcases the amazing features of our product.
+Explore My Stunning Portfolio Showcase! Get ready to be amazed by the captivating features of my work.
 
 ## Overview
 
-This landing page is designed to provide visitors with a captivating introduction to our product. It highlights key features, benefits, and encourages visitors to take action.
+Welcome to my modern portfolio website, where creativity meets innovation. Here, I showcase my exceptional skills, projects, and experiences in a visually appealing and engaging manner. 
 
 ## Features
 
