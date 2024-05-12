@@ -27,7 +27,7 @@ This landing page is designed to provide visitors with a captivating introductio
 - NextJS
 - TailwindCSS
 - Framer Motion
-- react-type-animation
+- React Type Animation
   
 ## Getting Started
 
