@@ -1,5 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# InnovateHub Landing Page
+
+Welcome to My Awesome Landing Page! This landing page showcases the amazing features of our product.
+
+## Overview
+
+This landing page is designed to provide visitors with a captivating introduction to our product. It highlights key features, benefits, and encourages visitors to take action.
+
+## Features
+
+- Modern and responsive design
+- Clear and concise content
+- Engaging visuals and graphics
+- Call-to-action buttons for easy navigation
+- Integration with social media platforms
+
+## Screenshots
+
+![Screenshot 1](/src/images/homepage.png)
+*Screenshot 1: Overview of the landing page.*
+
+
+## Technologies Used
+
+- HTML5
+- SCSS
+- JavaScript
+  
 ## Getting Started
 
 First, run the development server:
