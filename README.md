@@ -1,5 +1,5 @@
 
-# InnovateHub Landing Page
+# Modern Portfolio
 
 Welcome to My Awesome Landing Page! This landing page showcases the amazing features of our product.
 
@@ -14,6 +14,7 @@ This landing page is designed to provide visitors with a captivating introductio
 - Engaging visuals and graphics
 - Call-to-action buttons for easy navigation
 - Integration with social media platforms
+- customizable React typing animation component.
 
 ## Screenshots
 
