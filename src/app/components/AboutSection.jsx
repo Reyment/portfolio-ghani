@@ -9,12 +9,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PHP</li>
-        <li>Sequelize</li>
-        <li>Angular</li>
         <li>React</li>
+        <li>NextJS </li>
+        <li>TailwindCS </li>
+        <li>ExpressJS </li>
+        <li>MongoDB </li>
+        <li>Bootstrap </li>
+        <li>Laravel  </li>
       </ul>
     ),
   },
@@ -24,7 +25,6 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>SMKN 8 MALANG - software engineering</li>
-        <li>SMPN 14 Malang</li>
       </ul>
     ),
   },
